@@ -699,7 +699,7 @@ public class UnitTest {
     }
 
     @Test(
-//        timeout = 80000L
+        timeout =5000L
     )
     public void testFastSortWithReverseInput() {
         ISort sort = (ISort)TestRunner.getImplementationInstanceForInterface(ISort.class);
